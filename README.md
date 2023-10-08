@@ -77,10 +77,10 @@ To train the NMT model:
 
 Once the model is trained, you can use it to translate German sentences into English. To perform inference:
 
-1. Tokenize and preprocess the German sentence.
+1. Tokenize and preprocess the English sentence.
 2. Feed the preprocessed sentence into the encoder.
 3. Generate the English translation using the decoder.
-4. Post-process the generated English sentence (e.g., detokenization).
+4. Post-process the generated German sentence (e.g., detokenization).
 
 ## Evaluation
 
